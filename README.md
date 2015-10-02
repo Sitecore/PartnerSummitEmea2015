@@ -6,7 +6,6 @@ Sitecore 8.
 License for TDS, to synchronize items into Sitecore.
 
 Reference the following assemblies:
-
 Sitecore.Analytics.Aggregation.dll
 
 Sitecore.Analytics.DataAccess.dll
