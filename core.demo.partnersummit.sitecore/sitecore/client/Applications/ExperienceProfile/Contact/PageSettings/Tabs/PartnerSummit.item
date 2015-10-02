@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {1CE00386-5BF2-4BEC-B273-80C3A6A43F59}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/PartnerSummit
+parent: {87EE30C3-115F-4AEB-8C9E-BB784912011C}
+name: PartnerSummit
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 13
+
+PartnerSummit
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1328
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=PartnerSummitDataTabId&amp;IsVisible=0&amp;Text=%7b1CE00386-5BF2-4BEC-B273-80C3A6A43F59%7d" uid="{3E8F3D4E-6734-4689-BAE0-F348CAE6669A}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PartnerSummitDataTabBorder" uid="{68630030-038F-4B24-83EF-28362C975645}" />
+    <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Database=core&amp;Id=PartnerSummitDataLoadOnDemandPanel&amp;ItemId=%7bDA2B0F67-7D27-4B42-A97E-54A073DD6328%7d" ph="PartnerSummitDataTabBorder.Content" uid="{88830447-66D4-4060-AF0B-B243591D9D38}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=PartnerSummitDataIndicatorImage&amp;IsVisible=%7bBinding+PartnerSummitDataLoadOnDemandPanel.isLoaded%2c+Converter%3dNot%7d&amp;Width=60px&amp;Height=60px" ph="PartnerSummitDataTabBorder.Content" uid="{87D5AA77-6F58-4BC1-B7FD-EE874FEEE647}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=PartnerSummitDataProgressIndicator&amp;IsBusy=%7bBinding+PartnerSummitDataLoadOnDemandPanel.isBusy%7d&amp;AutoShowTimeout=1000&amp;TargetControl=PartnerSummitDataTabBorder" ph="PartnerSummitDataTabBorder.Content" uid="{BE41A7CE-7BFB-4F8F-854E-716D2B3FA3AC}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 57e1277f-d539-45ef-bcc9-61c1af172529
+
+----field----
+field: {3C386BCC-A573-4589-B1BD-EDACE83DD69D}
+name: Tooltip
+key: tooltip
+content-length: 18
+
+Partnersummit data
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 18
+
+Partnersummit data
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150901T130837Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57e1277f-d539-45ef-bcc9-61c1af172529
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150901T133458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {DA2B0F67-7D27-4B42-A97E-54A073DD6328}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/PartnerSummit/PartnerSummitData Panel
+parent: {1CE00386-5BF2-4BEC-B273-80C3A6A43F59}
+name: PartnerSummitData Panel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 23
+
+PartnerSummitData Panel
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2512
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fPartnerSummit%2fPartnerSummitTab.js" ph="Page.Body" uid="{04398660-A7CE-4807-B97B-F43AA3E764CB}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PartnerSummitDataPanelTabBorder" ph="Page.Body" uid="{B3757E9F-C889-482A-B6A5-933C93CD6F1F}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ExternalDataTabMessageBar" ph="PartnerSummitDataPanelTabBorder.Content" uid="{6CBBBCA9-3E79-4DF2-9F9A-50D6C62357A7}" />
+    <r ds="{6723CF88-7B96-47F7-8013-E6F82589768D}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=PartnerSummitAccordion" ph="PartnerSummitDataPanelTabBorder.Content" uid="{14DF25AE-8A34-403C-A99E-A4568893B5AF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=PartnerSummitBorder" ph="PartnerSummitDataPanelTabBorder.Content" uid="{69035A94-886F-406D-802B-CD0D28E3A666}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=NoPartnerSummitData&amp;IsVisible=0&amp;Text=No+employee+data+found" ph="PartnerSummitDataPanelTabBorder.Content" uid="{1F50EC2C-D72F-4318-913A-344A6C1E6DE6}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=PartnerSummitDataProvider" ph="PartnerSummitDataPanelTabBorder.Content" uid="{94B0C56F-0B82-44F1-8F28-4FCFCEB6A6A8}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AttendingBorder&amp;UsePadding=1" ph="PartnerSummitAccordion.Body" uid="{E0857B17-9A0E-4E79-B9CB-EE5C403F41F1}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AttendingLabel&amp;Text=Attending%3a" ph="AttendingBorder.Content" uid="{DE7C534C-F1CB-435E-95DC-6FDB24A0315B}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AttendingValue" ph="AttendingBorder.Content" uid="{77E4C484-4642-4125-BD3A-19901C7E00D7}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AttendeeIdBorder&amp;UsePadding=1" ph="PartnerSummitAccordion.Body" uid="{DE5DD3C6-A3A1-4408-84A4-FBB498F45F13}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AttendeeIdLabel&amp;Text=AttendeeId%3a" ph="AttendeeIdBorder.Content" uid="{EBF3266E-9845-449E-BB42-5E9B70341DBA}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AttendeeIdValue" ph="AttendeeIdBorder.Content" uid="{8BC50CCB-651B-4C03-AC8B-38158058C867}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: e19b87da-1255-40d2-af69-cc3752445ad1
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 23
+
+PartnerSummitData Panel
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150901T131026Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e19b87da-1255-40d2-af69-cc3752445ad1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150902T073002Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

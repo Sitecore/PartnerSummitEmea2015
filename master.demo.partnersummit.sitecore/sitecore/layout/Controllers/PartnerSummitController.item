@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {01795E7E-E695-42D2-8817-A0CB59273079}
+database: master
+path: /sitecore/layout/Controllers/PartnerSummitController
+parent: {75D27C2B-5F88-4CC8-B1DE-8412A1628408}
+name: PartnerSummitController
+master: {00000000-0000-0000-0000-000000000000}
+template: {473F22C2-3C94-4D1D-B9AE-3D1FC3D3D3F2}
+templatekey: Controller
+
+----field----
+field: {1A0AE537-291C-4CC8-B53F-7CA307A0FEF5}
+name: Controller Name
+key: controller name
+content-length: 7
+
+Contact
+----version----
+language: en
+version: 1
+revision: 4ae125ae-1c5c-4bca-9478-0496f2fc149b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+00010101T000000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ae125ae-1c5c-4bca-9478-0496f2fc149b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150908T071842Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

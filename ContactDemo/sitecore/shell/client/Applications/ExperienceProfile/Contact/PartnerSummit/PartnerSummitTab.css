@@ -1,0 +1,14 @@
+﻿span.sc-text[data-sc-id=AttendingLabel],
+span.sc-text[data-sc-id=AttendeeIdLabel] {
+  display: block;
+  float: left;
+  width: 90px;
+  color: #707070;
+  clear: both;
+}
+
+span.sc-text[data-sc-id=AttendingValue],
+span.sc-text[data-sc-id=AttendeeIdValue] {
+  display: block;
+  padding-left: 95px;
+}

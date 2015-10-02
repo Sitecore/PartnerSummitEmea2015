@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <Site Server="http://demo.partnersummit.sitecore/" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Conditions\PartnerSummitAttendingCondition.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="master">{452130E0-9FDB-4240-9039-3ADA2128545C}</Item>
+    </File>
+  </ItemGroup>
+</Project>

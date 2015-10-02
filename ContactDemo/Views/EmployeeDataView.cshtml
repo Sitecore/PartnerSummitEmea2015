@@ -1,0 +1,40 @@
+﻿@using PartnerSummitDemo.Models
+@using Sitecore.Mvc
+@model ContactModel
+
+<style type="text/css">
+    .contact-table .label {
+        padding-right: 15px;
+    }
+</style>
+<table class="contact-table">
+    @using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
+    {
+        @Html.Sitecore().FormHandler()
+
+        <tr>
+            <td class="label">@Html.LabelFor(m => m.Firstname)</td>
+            <td class="value">@Html.TextBoxFor(m => m.Firstname)</td>
+        </tr>
+
+        <tr>
+            <td class="label">@Html.LabelFor(m => m.Surname)</td>
+            <td class="value">@Html.TextBoxFor(m => m.Surname)</td>
+        </tr>
+
+        <tr>
+            <td class="label">@Html.LabelFor(m => m.Email)</td>
+            <td class="value">@Html.TextBoxFor(m => m.Email)</td>
+        </tr>
+
+        <tr>
+            <td class="label">@Html.LabelFor(m => m.AttendeeId)</td>
+            <td class="value">@Html.TextBoxFor(m => m.AttendeeId)</td>
+        </tr>
+
+        <tr>
+            <td class="label">&nbsp;</td>
+            <td class="value"><input type="submit" /></td>
+        </tr>
+    }
+</table>
